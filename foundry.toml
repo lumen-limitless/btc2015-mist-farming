@@ -5,18 +5,19 @@ out = "out"
 libs = ["lib"]
 solc = "0.8.20"
 auto_detect_solc = false
-evm_version = "paris"      # default to paris due to lack of PUSH0 support
+evm_version = "shanghai"
 verbosity = 1
 gas_reports = ["*"]
 optimize = true
 optimizer_runs = 1_000_000
-via-ir = false
+via-ir = true
 ffi = false
 fs_permissions = []
 
 remappings = [
     'ds-test/=lib/forge-std/lib/ds-test/src/',
     'forge-std/=lib/forge-std/src/',
+    'ERC20-farming-pool/=lib/ERC20-farming-pool/src/',
 ]
 
 [profile.default.fuzz]
