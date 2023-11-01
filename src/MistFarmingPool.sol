@@ -14,11 +14,11 @@ contract MistFarmingPool is ERC20FarmingPool {
     {}
 
     function name() public pure override returns (string memory) {
-        return "MIST-WBTC Farming Pool";
+        return "WMST-WBTC Farming Pool";
     }
 
     function symbol() public pure override returns (string memory) {
-        return "MIST-WBTC";
+        return "WMST-WBTC";
     }
 
     function decimals() public pure override returns (uint8) {
