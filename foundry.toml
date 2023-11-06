@@ -31,6 +31,7 @@ verbosity = 5
 runs = 10_000
 
 [rpc_endpoints]
+anvil = "http://localhost:8545"
 mainnet = "${RPC_URL_MAINNET}"
 arbitrum = "${RPC_URL_ARBITRUM}"
 avalanche = "${RPC_URL_AVALANCHE}"
