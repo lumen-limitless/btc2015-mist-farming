@@ -2,7 +2,7 @@
 pragma solidity 0.8.20;
 
 import {MistFarmingPool} from "../src/MistFarmingPool.sol";
-import {ERC20} from "erc20-farming-pool/ERC20.sol";
+import {ERC20} from "ERC20-farming-pool/ERC20.sol";
 import "forge-std/Test.sol";
 
 contract WMSTFarmingPoolE2ETests is Test {
