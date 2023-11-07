@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.20;
 
-import {ERC20FarmingPool} from "ERC20-farming-pool/ERC20FarmingPool.sol";
+import {ERC20FarmingPool} from "erc20-farming-pool/ERC20FarmingPool.sol";
 
 contract MistFarmingPool is ERC20FarmingPool {
     constructor()
