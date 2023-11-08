@@ -19,9 +19,9 @@ contract WMSTFarmingPoolE2ETests is Test {
     address user3 = vm.addr(3);
 
     uint256 constant START = 10_000;
-    uint256 constant PERIOD = 365 * 4 * 1 days; // 4 years
-    uint256 constant REWARD_AMOUNT = 1000e8;
-    uint256 constant STAKE_AMOUNT = 1000e2;
+    uint256 constant PERIOD = 60 * 60 * 24 * 365 * 4; // 4 years
+    uint256 constant REWARD_AMOUNT = 21000000; //total supply of WBTC
+    uint256 constant STAKE_AMOUNT = 100e2;
 
     function setUp() public {
         vm.createSelectFork(vm.envString("RPC_URL_MAINNET"));

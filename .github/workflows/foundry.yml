@@ -6,6 +6,7 @@ on:
 
 env:
   FOUNDRY_PROFILE: ci
+  RPC_URL_MAINNET: 'https://eth.llamarpc.com'
 
 jobs:
   check:
